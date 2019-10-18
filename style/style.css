@@ -1,0 +1,63 @@
+
+body{
+	overflow-x:hidden;
+}
+.menu{
+	position:relative;
+}
+
+.menu ul li a {
+	/*clear:both;*/
+	text-decoration:none;
+	list-style:none;
+	color:#fff!important;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:12pt;	
+	
+	
+}
+.menu ul li{
+	color:#fff;
+}
+.barra{
+	width:100%!important;
+	height:10%;
+	background-color:#a3320B;
+	position:absolute;
+
+}
+.marrom{
+    background-color:#96878a;
+    height:10px;
+    width: 100%;
+  
+}
+.titulo{
+  font-family: 'Great Vibes',cursive;
+  font-size:38pt;
+}
+  @media only screen and (max-width: 800px) {
+	body {
+	 /* background-color: lightblue!important;*/
+	  
+	}
+	.barra{
+	background-color: transparent;
+	}
+	
+	#layer1{
+		display: none!important;
+	}
+	a.nav-link{
+		display: inline!important;
+	}
+	.nav-item{
+		display: inline!important;
+	}
+	.banner{
+		width: 100%;
+		height: 280px;
+	}
+  }
+
