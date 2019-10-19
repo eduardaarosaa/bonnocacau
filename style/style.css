@@ -2,6 +2,10 @@
 body{
 	overflow-x:hidden;
 }
+ul{
+	list-style: none;
+	text-decoration: none;
+}
 .menu{
 	position:relative;
 }
@@ -22,8 +26,7 @@ body{
 }
 .barra{
 	width:100%!important;
-	height:10%;
-	background-color:#a3320B;
+	background-color:#831D1C;
 	position:absolute;
 
 }
